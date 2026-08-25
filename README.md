@@ -82,3 +82,48 @@ Se organizó una sección contenedora de tres tarjetas distribuidas en columnas 
     <script src="[https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js](https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js)" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9NkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+```css
+html, body {
+    background-color: #121212 !important;
+    color: white !important;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.custom-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 24px !important; 
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px orange !important;
+}
+
+.custom-card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.custom-card .btn-primary {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    width: 200px;
+}
+
+.custom-card .btn-primary:hover {
+    background: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+}
