@@ -2,6 +2,9 @@
 
 ¡Hola! Este repositorio contiene el desarrollo de la actividad práctica de Bootstrap en la cual implementamos un diseño de tarjetas de presentación interactivas para perfiles de estudiantes, dándole un toque personalizado y moderno.
 
+## 📷 Vista Previa del Proyecto
+![Captura del proyecto](/images/captura-de-la-actividad.png)
+
 ## 🚀 ¿De qué trató la actividad?
 La práctica consistió en consolidar los fundamentos de **Bootstrap 5**, aplicando conceptos clave como:
 1. **Estructura base en HTML5** utilizando los componentes oficiales de Bootstrap.
